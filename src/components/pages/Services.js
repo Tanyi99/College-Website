@@ -8,6 +8,7 @@
 import React from 'react';
 import '../Cards.css';
 import CardItem from '../CardItem';
+import Footer from '../Footer';
 import img8 from './images/13.jpg';
 import img6 from './images/7.jpg';
 import img7 from './images/6.jpg';
@@ -44,6 +45,9 @@ function Cards() {
           
         </div>
       </div>
+      <>
+            <Footer />
+          </>
     </div>
   );
 }

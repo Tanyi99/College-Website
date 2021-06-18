@@ -6,6 +6,7 @@
 //}
 
 import React from 'react';
+import Footer from '../Footer';
 import '../Cards.css';
 import CardItem from '../CardItem';
 import img9 from './images/9.jpg';
@@ -24,11 +25,12 @@ function Cards() {
               label='Adventure'
               path='/services'
             />
-            
           </ul>
-          
         </div>
       </div>
+            <>
+            <Footer />
+          </>
     </div>
   );
 }
